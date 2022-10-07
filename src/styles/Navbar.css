@@ -1,19 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
-:root {
-  background-color: '#151718';
-  font-family: 'Noto Sans';
+#menuIcon {
+  position: fixed;
+  top: 10px;
+  background: #83a598;
+  max-width: 4%;
+  border-radius: 7px;
 }
 
-.navbar {
-  background: #6a1b9a;
-  height: 60px;
-}
-
-.navbar a {
-  color: white;
-  font-size: 1.3rem;
-  text-decoration: none;
-  margin: 5px;
-  line-height: 3;
-}

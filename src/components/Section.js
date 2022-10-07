@@ -1,26 +1,32 @@
 import React from 'react';
 import '../styles/Section.css';
 
-// By importing the Section.css file, it is added to the DOM whenever this component loads
 
-// We can also style a component inside of its JavaScript file by adding style properties to its rendered elements
-// Unlike regular HTML, a JSX style property must be an object instead of a string
-// On a style object, we camelCase all property names, and put all of the values in quotes
-// Non quoted values default to "pixels", e.g. height, margin, padding
-
-const styles = {
-  sectionStyles: {
-    background: '#151718',
-    color: '#ebdbb2'
-  },
-};
-
-// We use JSX curly braces to evaluate the style object on the JSX tag
 
 function Section() {
   return (
-    <section style={styles.sectionStyles} className="section">
-      <p>
+    <section className="section">
+      <p id='code'>
+      ORG 0100H<br/>
+      CALL CLS<br/>
+      CALL WAITK<br/>
+      LD DE,0<br/>
+      LD HL,MSG<br/>
+      PRINT:<br/>
+      LD A,(HL)<br/>
+      PUSH HL<br/>
+      CALL PUTCHR<br/>
+      POP HL<br/>
+      CALL DELAY<br/>
+      INC E<br/>
+      INC HL<br/>
+      XOR A<br/>
+      LD B,(HL)<br/>
+      CP B<br/>
+      JP NZ, PRINT<br/>
+      RET<br/>
+      </p>
+      <p id='bio'>
         Hello, my name is David Lowry. I have been programming on-and-off since the age of 10 and I have
         enjoyed it ever since. My main focus, currently, is on full-stack web development. However, in the past
         I have learned several other sub-fields of programming including assembly language and machine code for the Zilog Z80 Microprocessor, processing data using MATLAB, basic game programming using Godot and GDScript, terminal applications with 
