@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Passions+Conflict');
 
 .header {
-  animation: textShadow 2s infinite;
-  text-align: center;
+  /*animation: textShadow 2s infinite;*/
+  display: flex;
+  justify-content: center;
   color: #ebdbb2;
+  background: -webkit-linear-gradient(#ebdbb2, #83a598);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   line-height: 20px;
   font-size: 6rem;
   font-family: 'Passions Conflict', cursive;
+}
+
+button {
+  margin: 20px;
 }
 
 /* Code originally from http://aleclownes.com/2017/02/01/crt-display.html */

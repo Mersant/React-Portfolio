@@ -1,10 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Passions+Conflict');
 
 .section {
   color: #ebdbb2;
   font-family: 'Noto Sans';
   padding: 20px;
+}
+
+#buttonsContainer {
+  display: block;
+  align-items: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+button {
+  background-color: #151718;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 4px #83a598;
+
+  text-align: center;
+  padding: 30px;
+  margin: 10;
+  color: #ebdbb2;
+  background: -webkit-linear-gradient(#ebdbb2, #83a598);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 20px;
+  font-size: 2rem;
+  font-family: 'Ubuntu', cursive;
 }
 
 #bio {
@@ -18,9 +56,30 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-color: #83a598;
-  color: #151718;
-  border-radius: 10px;
+  background-color: #17191a;
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px 7px #83a598;
+}
+#bio p {
+  background: linear-gradient(
+    to right, 
+    #ebdbb2, 
+    #839fa5
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#bio p h2 {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  color: #ebdbb2;
+  background: -webkit-linear-gradient(#ebdbb2, #83a598);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 20px;
+  font-size: 4rem;
+  font-family: 'Passions Conflict', cursive;
 }
 
 #code {

@@ -3,7 +3,8 @@ import Header from "./components/Header";
 import Section from "./components/Section";
 import Navbar from "./components/Navbar";
 
-document.body.style = 'background: #151718;';
+//document.body.style = 'background: #151718;';
+document.body.style = '  background: linear-gradient( to right,#151718,#1a212d); -webkit-background-clip: text;';
 
 function App() {
   return (
