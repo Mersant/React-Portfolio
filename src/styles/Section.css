@@ -29,21 +29,52 @@
 }
 
 button {
-  background-color: #151718;
+  border-width: 0;
   border-radius: 20px;
   box-shadow: 0px 0px 2px 4px #83a598;
 
-  text-align: center;
-  padding: 30px;
-  margin: 10;
   color: #ebdbb2;
-  background: -webkit-linear-gradient(#ebdbb2, #83a598);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  line-height: 20px;
+  background-color: #17191a;
+  font-family: 'Ubuntu';
   font-size: 2rem;
-  font-family: 'Ubuntu', cursive;
+  font-weight: 100;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  position: relative;
+  text-decoration: none;
+  transition: .2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+  
+} 
+button::after {
+  background-color:#ebdbb2;
+  border-radius: 20px;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: .2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
 }
+button:hover::after {
+    transform: translate(0, 0);
+}
+    
+button:hover {
+    box-shadow: 0px 0px 0px 0px #83a598;
+    border: 2px solid transparent;
+    color: #17191a;
+    transform: scale(1.05);
+    will-change: transform;
+}
+
 
 #bio {
   font-size: 1.4rem;
