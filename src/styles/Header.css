@@ -13,10 +13,6 @@
   font-family: 'Passions Conflict', cursive;
 }
 
-button {
-  margin: 20px;
-}
-
 /* Code originally from http://aleclownes.com/2017/02/01/crt-display.html */
 @keyframes textShadow {
   0% {
