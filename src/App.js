@@ -10,7 +10,7 @@ function App() {
   return (
 
     <div>
-          <style>
+    <style>
       background: "green";
     </style>
       <Navbar />
