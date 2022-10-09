@@ -80,14 +80,13 @@ button:active {
   will-change: transform;
 }
 
-
-#bio {
+#pageContent {
   font-size: 1.4rem;
   line-height: 3rem;
   display: block;
   align-items: center;
   top: 600px;
-  width: 50%;
+  width: 60%;
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -96,7 +95,7 @@ button:active {
   border-radius: 20px;
   box-shadow: 0px 0px 4px 7px #83a598;
 }
-#bio p {
+#pageContent p {
   background: linear-gradient(
     to right, 
     #ebdbb2, 
@@ -105,9 +104,9 @@ button:active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-#bio p h2 {
+#pageTitle {
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   margin: 0;
   color: #ebdbb2;
   background: -webkit-linear-gradient(#ebdbb2, #83a598);
@@ -157,11 +156,38 @@ button:active {
   color: #edc;
 }
 
+.projectImage,
+.projectInfo {
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.projectImage {
+  width: 40%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.projectInfo {
+  border-top: 30px;
+  width: 50%;
+  text-align: center;
+  color: #ebdbb2;
+}
+.projectInfo p {
+  font-size: 1.2rem;
+}
+
+.projectLink {
+  color: #ebdbb2;
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   #buttonsContainer {
     display: grid;
   }
-  #bio {
+  #pageContent {
     width: 80%;
   }
 }
