@@ -189,33 +189,6 @@ button:active {
   animation: fadeIn 0.1s;
 }
 
-.formInput {
-  background: #171717;
-  color: #ebdbb2;
-  border-style: none;
-  border-radius: 10px;
-  box-shadow: 0px 0px 1px 2px #83a598;
-  display: grid;
-  margin: 20px;
-  padding: 10px;
-}
-
-#formSubmit {
-  background: #171717;
-  color: #ebdbb2;
-  border-style: none;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: #83a598;
-  padding: 10px;
-}
-#formSubmit:hover {
-  cursor: pointer;
-  color: #839fa5;
-  transform: scale(1.1);
-  will-change: transform;
-}
-
 @media (max-width: 900px) {
   #buttonsContainer {
     display: grid;

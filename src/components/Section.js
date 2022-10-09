@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/Section.css';
+import ContactForm from '../ContactForm';
 
 function Section() {
 
@@ -133,12 +134,7 @@ function Section() {
         {/* --------------------------- CONTACT FORM ------------------------------------ */}
         <div id='contactPage' className='pageSection'>
           <h2 className='pageTitle'>Contact Me</h2>
-          <form>
-            <input name="name" type="text" className="formInput" placeholder="Name (*)" />
-            <input name="email" type="text" className="formInput" placeholder="Email (*)" />
-            <textarea name="text" className="formInput" placeholder="Comment (*)"></textarea>
-            <input id='formSubmit' type="submit" value="SUBMIT" />
-          </form>
+          <ContactForm />
         </div>
       </div>
     </section>
