@@ -1,3 +1,4 @@
+/* Heroku setup */
 const path = require('path');
 const express = require('express');
 const app = express();
@@ -13,20 +14,17 @@ app.listen(port, () => {
   console.log(`Server now running on ${port}`);
 });
 
-/*// Server.js contains routes for the contact form on the "Get in touch" page. 
-
-const express = require("express");
+/* Main server functions */
+// Server.js contains routes for the contact form on the "Get in touch" page. 
 const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
-const app = express();
 
 require('dotenv').config()
 
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
-app.listen(5000, () => console.log("Server Running"));
 
 const contactEmail = nodemailer.createTransport({
     service: 'gmail',
@@ -63,4 +61,4 @@ const contactEmail = nodemailer.createTransport({
         res.json({ status: "Sent!" });
       }
     });
-  });*/
+  });
