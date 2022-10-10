@@ -15,20 +15,11 @@
   text-align: center;
   padding-bottom: 40px;
 }
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
-  width: 80vw;
-  margin: 0 auto;
-  min-height: 100vh;
-}
+
 
 button {
   width: 250px;
-  height: 80px;
+  height: 90px;
   border-width: 0;
   border-radius: 20px;
   box-shadow: 0px 0px 2px 4px #83a598;
@@ -114,47 +105,9 @@ button:active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 20px;
-  font-size: 4rem;
+  font-size: 6rem;
+  line-height: 60px;
   font-family: 'Passions Conflict', cursive;
-}
-
-#code {
-  display: none;
-  z-index: -10;
-  position: absolute;
-  top: 0;
-  animation: fadeIn 2s;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 80px;
-  font-weight: bold;
-  text-align: center;
-  letter-spacing: 5px;
-  transform: skew(40deg)rotate(-10deg)rotateX(50deg)translate3d(0, 0, 0);
-   -webkit-perspective: 100px;
-    perspective: 100px;
-}
-
-#code::before {
-  text-shadow: 0 2px 3px #747474, 
-      -3px 3px 1px #222, 
-      -6px 5px 1px #474747, 
-      -9px 7px 1px #747474,
-      -12px 9px 1px #565656,
-      -15px 11px 1px #343434,
-      -22px 15px 1px #171717;
-}
-
-#code:before,
-#code:after {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  content: attr(data-text)
-}
-
-#code:after {
-  color: #edc;
 }
 
 .projectImage,
@@ -189,7 +142,12 @@ button:active {
   animation: fadeIn 0.1s;
 }
 
-@media (max-width: 900px) {
+#contactPage, 
+#myProjectsPage {
+  display: none;
+}
+
+@media (max-width: 950px) {
   #buttonsContainer {
     display: grid;
   }

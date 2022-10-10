@@ -19,3 +19,9 @@ input, textarea {
 #submitButton {
     margin-top: 40px;
 }
+@media (max-width: 950px) {
+  #submitButton {
+    width: 50%;
+    font-size: 3vw;
+  }
+}

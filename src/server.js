@@ -1,3 +1,5 @@
+// Server.js contains routes for the contact form on the "Get in touch" page. 
+
 const express = require("express");
 const router = express.Router();
 const cors = require("cors");

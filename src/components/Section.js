@@ -26,26 +26,6 @@ function Section() {
         }}>Get in touch</button>
       </div>
 
-      <p id='code'>
-        ORG 0100H<br />
-        CALL CLS<br />
-        CALL WAITK<br />
-        LD DE,0<br />
-        LD HL,MSG<br />
-        PRINT:<br />
-        LD A,(HL)<br />
-        PUSH HL<br />
-        CALL PUTCHR<br />
-        POP HL<br />
-        CALL DELAY<br />
-        INC E<br />
-        INC HL<br />
-        XOR A<br />
-        LD B,(HL)<br />
-        CP B<br />
-        JP NZ, PRINT<br />
-        RET<br />
-      </p>
       <div id='pageContent'>
 
         {/* ------------------------------- PROJECTS PAGE ---------------------------------------- */}
