@@ -4,7 +4,7 @@ import '../styles/Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <a href="/"><img id='menuIcon' src={ require('../images/hamburger.png') }/></a>
+      <a href="/"><img alt='' id='menuIcon' src={ require('../images/hamburger.png') }/></a>
     </nav>
   );
 }
