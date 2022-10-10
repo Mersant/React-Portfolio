@@ -60,7 +60,7 @@ button:hover::after {
     
 button:hover {
     box-shadow: 0px 0px 0px 0px #83a598;
-    border: 2px solid transparent;
+    border: 2px solid rgba(255, 255, 255, 0);
     color: #17191a;
     transform: scale(1.05);
     will-change: transform;
@@ -93,7 +93,7 @@ button:active {
     #839fa5
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 .pageTitle {
   animation: fadeIn 1.5s;
@@ -103,7 +103,7 @@ button:active {
   color: #ebdbb2;
   background: -webkit-linear-gradient(#ebdbb2, #83a598);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
   line-height: 20px;
   font-size: 6rem;
   line-height: 60px;
@@ -153,6 +153,9 @@ button:active {
   }
   #pageContent {
     width: 80%;
+  }
+  .projectTitle {
+    font-size: 6vw;
   }
 }
 

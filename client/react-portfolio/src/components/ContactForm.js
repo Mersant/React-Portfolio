@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './styles/ContactForm.css'
+import '../styles/ContactForm.css'
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Section.css';
-import ContactForm from '../ContactForm';
+import ContactForm from './ContactForm';
 
 function Section() {
 
@@ -39,7 +39,7 @@ function Section() {
               <img className='projectImage' src='https://github.com/meyerbw10/Find-My-Pets/blob/main/public/images/photo1.png?raw=true' alt="PawFinder's homepage, showing a happy, young man petting his golden retriever on a grass field." />
             </a>
             <div className='projectInfo'>
-              <h2>PawFinder</h2>
+              <h2 className='projectTitle'>PawFinder</h2>
               <p>
                 A proof of concept group project utilizing MongoDb and Handlebars to reconnect families with their lost pets.
               </p>
@@ -50,7 +50,7 @@ function Section() {
 
           <div className='projectHeader'>
             <div className='projectInfo'>
-              <h2>Proposal Game</h2>
+              <h2 className='projectTitle'>Proposal Game</h2>
               <p>
                 At the beginning of 2022 I began work on a video game to propose to my then girlfriend of three years. After a several months of work, I proposed on May 29th and she said, "Yes!"
               </p>
@@ -67,7 +67,7 @@ function Section() {
               <img className='projectImage' src='https://user-images.githubusercontent.com/102173297/190265458-d3298f10-7a12-417a-bafd-8ea9cbdc69fb.png' alt="The SuperTracker9000 application running in a terminal window." />
             </a>
             <div className='projectInfo'>
-              <h2>SuperTracker9000</h2>
+              <h2 className='projectTitle'>Super Tracker 9000</h2>
               <p>
                 A little JavaScript CLI app for managing a MySQL database.
               </p>
@@ -78,7 +78,7 @@ function Section() {
 
           <div className='projectHeader'>
             <div className='projectInfo'>
-              <h2>OSU AEV Project</h2>
+              <h2 className='projectTitle'>OSU AEV Project</h2>
               <p>
                 A school project I did at OSU during the spring, 2022 semeter. My group and I designed and tested an AEV. Following the project, we presented our findings to the class.
               </p>
@@ -94,7 +94,7 @@ function Section() {
               <img className='projectImage' src='https://github.com/Mersant/MyPortfolio/blob/main/assets/images/ZilogZ80.jpg?raw=true' alt="Close up of a Zilog Z80 as viewed through a magnifying glass." />
             </a>
             <div className='projectInfo'>
-              <h2>Misc</h2>
+              <h2 className='projectTitle'>Misc</h2>
               <p>
                 Outside of web design, I enjoy computer hardware quite a bit. I have learned a bit of basic circuit design from books and used to carry around a briefcase when I was around 11-13 so I could draw computer schematics on the go. Tinkering with low-level programming languages like Assembly is something I also enjoy, and in this repo you can find some of the programs I have made.
               </p>
