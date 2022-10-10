@@ -114,6 +114,7 @@ function Section() {
         {/* --------------------------- CONTACT FORM ------------------------------------ */}
         <div id='contactPage' className='pageSection'>
           <h2 className='pageTitle'>Contact Me</h2>
+          <p>Send me an inquiry and I'll get back to you as soon as possible.</p>
           <ContactForm />
         </div>
       </div>
@@ -122,9 +123,3 @@ function Section() {
 }
 
 export default Section;
-
-/*
-        <p>
-        <h2>About Me</h2>
-        Hello, my name is David Lowry. I have been programming on and off since the age of 10 and I have enjoyed it ever since. My main focus, currently, is on full-stack web development. However, in the past, I have learned several other sub-fields of programming including assembly language and machine code for the Zilog Z80 Microprocessor, processing data using MATLAB, basic game programming using Godot and GDScript, terminal applications with C++, and programming simple applications on vintage computers using BASIC. Additionally, I have some experience with computer hardware such as soldering together microcomputers and learning circuit design. I am excited to begin my career in the computing field and hope you will have a look at my portfolio to view some of my accomplishments thus far.
-        </p>*/
