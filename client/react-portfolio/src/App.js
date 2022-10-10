@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
+import Section from "./components/Section";
+
+//document.body.style = 'background: #151718;';
+document.body.style = '  background: linear-gradient( to right,#151718,#1b1d1e); -webkit-background-clip: text;';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div>
+    <style>
+      background: "green";
+    </style>
+      <Header />
+      <Section />
     </div>
   );
 }
